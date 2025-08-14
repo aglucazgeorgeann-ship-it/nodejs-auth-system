@@ -32,13 +32,13 @@ This project is designed to be **portfolio-ready**, showcasing a modern, secure,
 ## 🖥️ Screenshots
 
 **Login Page**  
-![Login](screenshots/login.png)
+![Login](https://github.com/aglucazgeorgeann-ship-it/nodejs-auth-system/blob/main/login.jpg?raw=true)
 
 **Register Page**  
-![Register](screenshots/register.png)
+![Register](https://github.com/aglucazgeorgeann-ship-it/nodejs-auth-system/blob/main/register.jpg?raw=true)
 
-**Profile Page**  
-![Profile](screenshots/profile.png)
+**Profile / Update Profile Page**  
+![Profile](https://github.com/aglucazgeorgeann-ship-it/nodejs-auth-system/blob/main/updateprofile.jpg?raw=true)
 
 ---
 
