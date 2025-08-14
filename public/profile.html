@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profile — ProAuth</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <main class="container">
+    <div class="card profile-card">
+      <div class="profile-header">
+        <div class="profile-avatar">
+          <img id="avatar-img" src="/placeholder-avatar.png" alt="avatar" />
+        </div>
+        <div class="profile-info">
+          <h2 id="profile-username">—</h2>
+          <p id="profile-created">Member since —</p>
+        </div>
+        <div class="profile-actions">
+          <button id="logout-btn" class="btn outline">Logout</button>
+        </div>
+      </div>
+
+      <section class="profile-section">
+        <h3>Update Profile</h3>
+        <form id="update-form" class="small-form">
+          <input id="update-username" placeholder="New username (optional)" />
+          <input id="update-password" type="password" placeholder="New password (optional)" />
+          <button type="submit" class="btn">Save changes</button>
+        </form>
+      </section>
+
+      <section class="profile-section">
+        <h3>Change Avatar</h3>
+        <form id="avatar-form">
+          <input id="avatar-file" type="file" accept="image/*" />
+          <div class="avatar-preview">
+            <img id="preview-img" src="/placeholder-avatar.png" alt="preview" />
+          </div>
+          <button type="submit" class="btn">Upload Avatar</button>
+        </form>
+      </section>
+
+      <section class="profile-section">
+        <h3>Recent Logins</h3>
+        <div class="log-table-wrap">
+          <table id="logs-table">
+            <thead>
+              <tr><th>IP</th><th>User Agent</th><th>Time</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
